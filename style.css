@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar {
+    width: 60%;
+    display: flex;
+
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+.nav-link ul {
+    text-align: center;
+}
+
+#video {
+    display: block;
+}
+
+#features,
+#how-it-works,
+#pricing {
+    height: 100vh;
+    background-color: beige;
+    margin: 5% auto;
+}
+
+@media only screen and (min-width:550px) {
+    #header {
+        flex-wrap: wrap;
+    }
+}
+
+/* Flexbox at least once */
