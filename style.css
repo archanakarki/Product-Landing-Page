@@ -53,8 +53,21 @@ body{
     list-style: none;
 }
 
-#nav-bar li > a{
+#nav-bar li > a:link{
     text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+
+#nav-bar li > a:visited{
+    color:rgb(56, 56, 56);
+}
+
+#nav-bar li > a:hover{
+    color:rgb(221, 179, 10);
+}
+
+#nav-bar li > a:active{
+    color: rgb(107, 107, 107);
 }
 
 main{
